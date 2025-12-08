@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventify - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Eventify</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="venues.html">Venues</a>
+        <a href="categories.html">Categories</a>
+        <a href="themes.html">Themes</a>
+        <a href="addons.html">Add-Ons</a>
+        <a href="booking.html" class="cart-btn">Booking</a>
+    </nav>
+</header>
+<section class="hero">
+    <div class="hero-overlay">
+        <h1>Let's Celebrate Your Festival Party With Us</h1>
+
+        <div class="hero-search">
+            <select id="locationSelect">
+                <option>Select Your City</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Bangalore</option>
+                <option>Hyderabad</option>
+                <option>Delhi</option>
+            </select>
+
+            <button onclick="goToVenues()">Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="home-intro">
+    <h2>We Are The Best Event Planner & Organizer In Town</h2>
+    <p>Personalized themes, decor, venues & more.</p>
+</section>
+
+<footer>
+    <p>© 2025 Eventify | Event Organizer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

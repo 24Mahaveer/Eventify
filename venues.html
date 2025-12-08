@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Venue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Eventify</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="venues.html">Venues</a>
+        <a href="categories.html">Categories</a>
+        <a href="themes.html">Themes</a>
+        <a href="addons.html">Add-Ons</a>
+        <a href="booking.html" class="cart-btn">Booking</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Select Venue</h1>
+</section>
+
+<section class="grid-container">
+
+    <div class="grid-card" onclick="addVenue('Banquet Hall')">
+        <img src="https://www.metropolbanquet.com/wp-content/uploads/renaissance-venue-grand-ballroom-gallery-07.jpg">
+        <h3>Banquet Hall</h3>
+        <p>₹ 21,000</p>
+    </div>
+
+    <div class="grid-card" onclick="addVenue('Outdoor Lawn')">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb">
+        <h3>Outdoor Lawn</h3>
+        <p>₹ 20,000</p>
+    </div>
+
+    <div class="grid-card" onclick="addVenue('Indoor Studio')">
+        <img src="https://www.tagvenue.com/resize/202507/52/f8/widen-1680-noupsize;92870-content-studio-1-room-PbMquXJC.jpg">
+        <h3>Indoor Studio</h3>
+        <p>₹ 17,000</p>
+    </div>
+
+    <div class="grid-card" onclick="addVenue('Beach Side')">
+        <img src="https://cdn0.weddingwire.in/article/0063/original/1280/jpeg/113600-1-blue-bay-beach-resort-chennai.jpeg">
+        <h3>Beach Side</h3>
+        <p>₹ 21,000</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2025 Eventify</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

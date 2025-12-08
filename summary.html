@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadSummary()">
+
+<header class="navbar">
+    <div class="logo">Eventify</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="venues.html">Venues</a>
+        <a href="categories.html">Categories</a>
+        <a href="themes.html">Themes</a>
+        <a href="addons.html">Add-Ons</a>
+        <a href="booking.html" class="cart-btn">Booking</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Your Event Summary</h1>
+</section>
+
+<section class="summary-box">
+    <p><strong>Venue:</strong> <span id="sumVenue"></span></p>
+    <p><strong>Category:</strong> <span id="sumCategory"></span></p>
+    <p><strong>Theme:</strong> <span id="sumTheme"></span></p>
+    <p><strong>Add-Ons:</strong> <span id="sumAddons"></span></p>
+
+    <hr style="margin: 15px 0;">
+
+    <p><strong>Total Estimated Price:</strong> <span id="sumTotal" style="color:#ca7215"></span></p>
+
+    <button class="confirm-btn" onclick="window.location.href='booking.html'">Proceed</button>
+</section>
+
+<footer>
+    <p>© 2025 Eventify</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
